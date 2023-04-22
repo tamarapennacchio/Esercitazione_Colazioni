@@ -5,7 +5,6 @@ body {
 }
 img {
   max-width: 100%;
-
   display: block;
 }
 main, content, footer {
@@ -22,12 +21,10 @@ section.heroimage {
 }
 img.heroimage {
   width: 100%;
-
-/* H E A D E R  +  N A V */
   height: 377px;
   object-fit: cover;
 }
-/*-----------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
 /* H E A D E R  &  N A V */
 nav.header { 
   background-color: #7e9ac4;
@@ -64,7 +61,7 @@ section.header {
 img.pittogramma {
   max-width: 15px;
 }
-/*------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
 /* T I T O L O - H E A D L I N E */
 section.headline {
   margin: auto;
@@ -149,83 +146,8 @@ hr.main {
     background: #000000;
     margin: 0 0.4em;
   }
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
 
-/* M A I N */
-main {
-  max-width: 900px;
-  margin: auto;
-}
-div.card {
-  display: flex;
-  justify-content: space-between;
-  padding: 55px 0 0 0;
-  }
-div.text {
-  max-width: 700px;
-}
-div.pic {
-  max-width: 45%;
-  max-height: 0;
-  padding: 0 0 0 13px;
-}
-h6.main {
-  font-family: 'Palanquin', sans-serif;
-  font-size: 13.9288px;
-  margin: 0 0 8px 0;
-}
-h4.main {
-  font-family: 'Lora', serif;
-  font-size: 21.1121px;
-}
-p.main {
-  font-family: 'Roboto Slab', serif;
-  font-size: 16px;
-  max-width: 700px;
-}
-
-/* B U T T O N S */
-button {
-  color: #0c0d0d;
-  background-color: #e3d2c3;
-  font-family: 'Palanquin', sans-serif;
-  font-size: 13.9288px;
-  font-weight: 600;
-  text-align: center;
-  border: 0.9px solid #e3d2c3;
-  border-radius: 25px;
-  padding: 0 25px 0 25px;
-  transition: background-color 0.5s;
-}
-button:hover{
-  background-color: #7e9ac4;
-  border: 0.9px solid #7e9ac4;
-  cursor: pointer;
-  color: #e3d2c3;
-}
-hr.main {
-    text-align: center;
-    border: none;
-    margin: 55px 0 55px 0;
-  }
-    hr.main:before {
-    content: '';
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: #000000;
-    margin: 0 0.4em;
-  }
-    hr.main:after {
-    content: '';
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: #000000;
-    margin: 0 0.4em;
-  }
-/*------------------------------------------------------------------------*/
 /* M A I N */
 main {
   margin: auto;
@@ -297,27 +219,9 @@ button.centrale:hover {
   background-color: #7e9ac4;
   border: 0.9px solid #7e9ac4;
 }
-
-/* F O O T E R */
-section.footerheader {
-  max-width: 900px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-}
-div.footerheader {
- max-width: 400px;
- margin: auto;
-}
-div.illu2 {
- width: 500px;
- margin: auto;
-}
-/*----------------------------------------------------------------------*/
-/* F O O T E R  H E A D L I N E */
-section.fheadline {
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+/* F O O T E R   H E A D L I N E */
+.fheadline {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -326,21 +230,21 @@ div.illu2 {
   width: 500px;
   margin: auto;
 }
-section.fheadline h3 {
+.fheadline h3 {
   font-family: 'Roboto Slab', serif;
   font-size: 24.2515px;
   font-weight: 500;
   line-height: 140%;
   font-style: normal; 
 }
-section.fheadline h1 {
+.fheadline h1 {
   font-family: 'Lora', serif;
   font-size: 32px;
   line-height: 120%;
   letter-spacing: -0.029em;
   font-style: normal;
 }
-/*----------------------------------------------------------------------*/
+
 /* F O O T E R  BIG */
 nav.fbig {
   background-color: #7e9ac4;
@@ -390,6 +294,48 @@ a.footer:hover {
   text-decoration: underline;
 }
 
+/* B U T T O N S */
+button {
+  color: #0c0d0d;
+  background-color: #e3d2c3;
+  font-family: 'Palanquin', sans-serif;
+  font-size: 13.9288px;
+  font-weight: 600;
+  text-align: center;
+  border: 0.9px solid #e3d2c3;
+  border-radius: 25px;
+  padding: 0 25px 0 25px;
+  transition: background-color 0.5s;
+}
+button:hover{
+  background-color: #7e9ac4;
+  border: 0.9px solid #7e9ac4;
+  cursor: pointer;
+  color: #e3d2c3;
+}
+hr.main {
+    text-align: center;
+    border: none;
+    margin: 55px 0 55px 0;
+  }
+    hr.main:before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #000000;
+    margin: 0 0.4em;
+  }
+    hr.main:after {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #000000;
+    margin: 0 0.4em;
+  }
 /* I L L U  1 */
 div.illu_tazza {
   margin: 21px;
