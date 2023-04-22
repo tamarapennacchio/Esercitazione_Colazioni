@@ -7,8 +7,9 @@ img {
   max-width: 100%;
   display: block;
 }
-main, content, footer {
+div.card, div.pic {
   max-width: 1000px;
+  margin: auto;
 }
 img.marchio {
   max-width: 10%;
@@ -104,21 +105,14 @@ div.illu_tazza {
   animation: 4s anim-saltello ease-out infinite;
   gap: 21px;
 }
-
-/* LINEA DIVISIONE */
-hr.solid {
-  max-width: 900px;
-  margin: auto;
+/*------------------------------------------------- HR -----------------------------------------------------*/
+hr {
   margin-top: 55px;
   margin-bottom: 55px;
-  border: 2px solid black;
+  max-width: 60%;
+  border: 2px solid #000;
 }
-hr.main {
-    text-align: center;
-    border: none;
-    margin: 55px 0 55px 0;
-  }
-    hr.main:before {
+hr.main:before {
     content: '';
     display: inline-block;
     width: 8px;
@@ -127,7 +121,7 @@ hr.main {
     background: #000000;
     margin: 0 0.4em;
   }
-    hr.main:after {
+hr.main:after {
     content: '';
     display: inline-block;
     width: 8px;
@@ -137,16 +131,13 @@ hr.main {
     margin: 0 0.4em;
   }
 /*-------------------------------------------------------------------- M A I N ----------------------------------------------------------*/
-main {
-  margin: auto;
-}
 .card {
+  width: 55%;
   display: flex;
-  gap: 21px;
-  margin-bottom: 120px;
 }
 .card .pic {
-  width: 30%;
+  width: 50%;
+  margin-right: 0;
 }
 .card .text {
   width: 70%;
@@ -154,7 +145,7 @@ main {
 h6.main {
   font-family: 'Palanquin', sans-serif;
   font-size: 13.9288px;
-margin: 0;
+  margin: 0;
 }
 h4.main {
   font-family: 'Lora', serif;
@@ -169,6 +160,7 @@ p.main {
 }
 /*---------------------------------------------------------------- B U T T O N S --------------------------------------------------------*/
 button {
+  margin: 21px 0 0 0;
   color: #0c0d0d;
   background-color: #e3d2c3;
   font-family: 'Palanquin', sans-serif;
@@ -207,10 +199,8 @@ button.centrale:hover {
   border: 0.9px solid #7e9ac4;
 }
 /*----------------------------------------------------------------- F O O T E R ---------------------------------------------------------*/
-.fheadline {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+section.fheadline {
+display: flex;
 }
 div.illu2 {
   width: 500px;
@@ -254,7 +244,6 @@ a.fbig {
 a.fbig:hover {
   text-decoration: underline;
 }
-
 /*--------------------------------------------------------------- F O O T E R  END ------------------------------------------------------*/
 nav.footer {
   background-color: #c3d0e3;
