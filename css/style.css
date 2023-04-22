@@ -24,8 +24,7 @@ img.heroimage {
   height: 377px;
   object-fit: cover;
 }
-/*---------------------------------------------------------------------------------------------------------------------------------------*/
-/* H E A D E R  &  N A V */
+/*------------------------------------------------------------ T E S T A T A  /  N A V --------------------------------------------------*/
 nav.header { 
   background-color: #7e9ac4;
   font-family: 'Roboto Slab', serif;
@@ -51,18 +50,9 @@ a.header:hover {
  text-decoration: underline;
 }
 img.pittogramma {
-  max-width: 13px;
-}
-
-/* T I T O L O    H E A D E R */
-section.header {
-  max-width: 1000px;
-}
-img.pittogramma {
   max-width: 15px;
 }
-/*---------------------------------------------------------------------------------------------------------------------------------------*/
-/* T I T O L O - H E A D L I N E */
+/*------------------------------------------------------------------- T I T O L O -------------------------------------------------------*/
 section.headline {
   margin: auto;
   display: flex;
@@ -146,9 +136,7 @@ hr.main {
     background: #000000;
     margin: 0 0.4em;
   }
-/*---------------------------------------------------------------------------------------------------------------------------------------*/
-
-/* M A I N */
+/*-------------------------------------------------------------------- M A I N ----------------------------------------------------------*/
 main {
   margin: auto;
 }
@@ -179,8 +167,7 @@ p.main {
   max-width: 700px;
   margin: 0;
 }
-/*-----------------------------------------------------------------------*/
-/* B U T T O N S */
+/*---------------------------------------------------------------- B U T T O N S --------------------------------------------------------*/
 button {
   color: #0c0d0d;
   background-color: #e3d2c3;
@@ -219,8 +206,7 @@ button.centrale:hover {
   background-color: #7e9ac4;
   border: 0.9px solid #7e9ac4;
 }
-/*---------------------------------------------------------------------------------------------------------------------------------------*/
-/* F O O T E R   H E A D L I N E */
+/*----------------------------------------------------------------- F O O T E R ---------------------------------------------------------*/
 .fheadline {
   display: flex;
   justify-content: space-between;
@@ -244,8 +230,7 @@ div.illu2 {
   letter-spacing: -0.029em;
   font-style: normal;
 }
-
-/* F O O T E R  BIG */
+/*--------------------------------------------------------------- F O O T E R  BIG ------------------------------------------------------*/
 nav.fbig {
   background-color: #7e9ac4;
   height: 89px;
@@ -270,7 +255,7 @@ a.fbig:hover {
   text-decoration: underline;
 }
 
-/* F O O T E R  END */
+/*--------------------------------------------------------------- F O O T E R  END ------------------------------------------------------*/
 nav.footer {
   background-color: #c3d0e3;
   font-family: 'Palanquin', sans-serif;
@@ -293,26 +278,7 @@ a.footer {
 a.footer:hover {
   text-decoration: underline;
 }
-
-/* B U T T O N S */
-button {
-  color: #0c0d0d;
-  background-color: #e3d2c3;
-  font-family: 'Palanquin', sans-serif;
-  font-size: 13.9288px;
-  font-weight: 600;
-  text-align: center;
-  border: 0.9px solid #e3d2c3;
-  border-radius: 25px;
-  padding: 0 25px 0 25px;
-  transition: background-color 0.5s;
-}
-button:hover{
-  background-color: #7e9ac4;
-  border: 0.9px solid #7e9ac4;
-  cursor: pointer;
-  color: #e3d2c3;
-}
+/*------------------------------------------------------------ 2  P A L L I N I ---------------------------------------------------------*/
 hr.main {
     text-align: center;
     border: none;
@@ -344,8 +310,7 @@ div.illu_tazza {
   animation: 4s anim-saltello ease-out infinite;
   gap: 21px;
 }
-
-/* LINEA DIVISIONE */
+/*---------------------------------------------------------------- HR -------------------------------------------------------------------*/
 hr.solid {
   max-width: 900px;
   margin: auto;
@@ -353,8 +318,7 @@ hr.solid {
   margin-bottom: 55px;
   border: 2px solid black;
 }
-
-/* C O F F E E */
+/*------------------------------------------------------------ C O F F E E --------------------------------------------------------------*/
 .saltello a {
   color: black;
   margin: 0 34px 21px 0;
@@ -384,8 +348,7 @@ hr.solid {
     transform: translateY(0%);
   }
 }
-
-/* F R E C C I N A  -  TOP */
+/*------------------------------------------------------------- F R E C C I N A  -  TOP -------------------------------------------------*/
 a.freccina {
   color: black;
   background: #c3d0e3;
@@ -402,55 +365,6 @@ a.freccina:hover {
   color: white;
   background-color: #7e9ac4;
  }
-
-/* F O O T E R  BIG */
-  nav.footerbig {
-  background-color: #7e9ac4;
-  height: 89px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-}
-li.footerbig {
-  font-family: 'Roboto Slab', serif;
-  font-size: 18.3792px;
-  font-weight: 500;
-  display: inline-block;
-  text-align: center;
-  padding: 0 10px 0 0;
-}
-a.footerbig {
-  color: #e3d2c3;
-  text-decoration: none;
-}
-a.footerbig:hover {
-text-decoration: underline;
-}
-
-/* F O O T E R  END */
-nav.footer {
-  background-color: #c3d0e3;
-  font-family: 'Palanquin', sans-serif;
-  font-size: 13.9288px;
-  font-weight: 300;
-  height: 55px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-}
-li.footer {
-  padding: 10px 10px;
-  display: inline-block;
-}
-a.footer {
-  color: #7e9ac4;
-  text-decoration: none;
-}
-a.footer:hover {
-  text-decoration: underline;
-}
 @media (max-width: 800px) { /* se la finestra ha una larghezza minore di 800px la dichiarazione farà lo sfondo giallo */
 }
 @media (max-width: 800px) { /* se la finestra ha una larghezza minore di 800px la dichiarazione farà lo sfondo giallo */
