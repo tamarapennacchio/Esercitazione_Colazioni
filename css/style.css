@@ -5,43 +5,30 @@ body {
 }
 img {
   max-width: 100%;
-<<<<<<< Updated upstream
-=======
+
   display: block;
 }
 main, content, footer {
   max-width: 1000px;
->>>>>>> Stashed changes
 }
 img.marchio {
+  max-width: 10%;
   position: absolute;
   top: 2px;
   left: 5px;
-<<<<<<< Updated upstream
-  max-width: 144px;
-=======
-  max-width: 150px;
-  margin: 0;
->>>>>>> Stashed changes
 }
 section.heroimage {
   opacity: 90%;
 }
 img.heroimage {
   width: 100%;
-<<<<<<< Updated upstream
-  height: 610px;
-  object-fit: cover;
-  margin: 0;
-}
+
 /* H E A D E R  +  N A V */
-=======
   height: 377px;
   object-fit: cover;
 }
 /*-----------------------------------------------------------------------*/
 /* H E A D E R  &  N A V */
->>>>>>> Stashed changes
 nav.header { 
   background-color: #7e9ac4;
   font-family: 'Roboto Slab', serif;
@@ -65,7 +52,6 @@ a.header {
 }
 a.header:hover {
  text-decoration: underline;
-<<<<<<< Updated upstream
 }
 img.pittogramma {
   max-width: 13px;
@@ -74,7 +60,6 @@ img.pittogramma {
 /* T I T O L O    H E A D E R */
 section.header {
   max-width: 1000px;
-=======
 }
 img.pittogramma {
   max-width: 15px;
@@ -82,23 +67,15 @@ img.pittogramma {
 /*------------------------------------------------------------------------*/
 /* T I T O L O - H E A D L I N E */
 section.headline {
->>>>>>> Stashed changes
   margin: auto;
   display: flex;
   justify-content: center;
   padding: 89px 89px;
 }
-<<<<<<< Updated upstream
-div.header {
-  max-width: 300px;
-}
-h1.header {
-=======
 div.headline {
   max-width: 300px;
 }
 h1.headline {
->>>>>>> Stashed changes
   font-family: 'Lora', serif;
   font-size: 32px;
   line-height: 120%;
@@ -106,11 +83,7 @@ h1.headline {
   max-width: 377px;
   margin: 0 0 13px 0;
  }
-<<<<<<< Updated upstream
-h3.header {
-=======
 h3.headline {
->>>>>>> Stashed changes
   font-family: 'Roboto Slab', serif;
   font-size: 24.2515px;
   font-weight: 500;
@@ -120,11 +93,7 @@ h3.headline {
   max-width: 233px;
   margin: 0 0 8px 0;
 }
-<<<<<<< Updated upstream
-h6.header {
-=======
 h6.headline {
->>>>>>> Stashed changes
   color: #7e9ac4;
   font-family: 'Palanquin', sans-serif;
   font-size: 13.9288px;
@@ -138,7 +107,6 @@ h6.headline {
 a.iscrizione {
   color: #7e9ac4;
   text-overflow: 500;
-<<<<<<< Updated upstream
 }
 
 /* I L L U    1 */
@@ -234,8 +202,6 @@ button:hover{
   cursor: pointer;
   color: #e3d2c3;
 }
-=======
-}
 hr.main {
     text-align: center;
     border: none;
@@ -311,7 +277,6 @@ button:hover{
   cursor: pointer;
   color: #e3d2c3;
 }
->>>>>>> Stashed changes
 div.buttoncentrale {
   display: flex;
   justify-content: center;
@@ -332,7 +297,6 @@ button.centrale:hover {
   background-color: #7e9ac4;
   border: 0.9px solid #7e9ac4;
 }
-<<<<<<< Updated upstream
 
 /* F O O T E R */
 section.footerheader {
@@ -351,8 +315,6 @@ div.illu2 {
  width: 500px;
  margin: auto;
 }
-section.footerheader h3 {
-=======
 /*----------------------------------------------------------------------*/
 /* F O O T E R  H E A D L I N E */
 section.fheadline {
@@ -365,27 +327,19 @@ div.illu2 {
   margin: auto;
 }
 section.fheadline h3 {
->>>>>>> Stashed changes
   font-family: 'Roboto Slab', serif;
   font-size: 24.2515px;
   font-weight: 500;
   line-height: 140%;
   font-style: normal; 
 }
-<<<<<<< Updated upstream
-section.footerheader h1 {
-=======
 section.fheadline h1 {
->>>>>>> Stashed changes
   font-family: 'Lora', serif;
   font-size: 32px;
   line-height: 120%;
   letter-spacing: -0.029em;
   font-style: normal;
-<<<<<<< Updated upstream
-}  
-=======
-} 
+}
 /*----------------------------------------------------------------------*/
 /* F O O T E R  BIG */
 nav.fbig {
@@ -453,7 +407,6 @@ hr.solid {
   margin-bottom: 55px;
   border: 2px solid black;
 }
->>>>>>> Stashed changes
 
 /* C O F F E E */
 .saltello a {
@@ -503,7 +456,6 @@ a.freccina:hover {
   color: white;
   background-color: #7e9ac4;
  }
-<<<<<<< Updated upstream
 
 /* F O O T E R  BIG */
   nav.footerbig {
@@ -553,10 +505,8 @@ a.footer {
 a.footer:hover {
   text-decoration: underline;
 }
-
 @media (max-width: 800px) { /* se la finestra ha una larghezza minore di 800px la dichiarazione farà lo sfondo giallo */
 }
-=======
 @media (max-width: 800px) { /* se la finestra ha una larghezza minore di 800px la dichiarazione farà lo sfondo giallo */
   nav.footer {
   font-size: 12.6992px;
@@ -569,4 +519,3 @@ a.footer:hover {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   }
 }
->>>>>>> Stashed changes
