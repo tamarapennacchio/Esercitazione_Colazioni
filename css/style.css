@@ -111,11 +111,11 @@ div.illu_tazza {
   display: flex;
 }
 .card .pic {
-  width: 50%;
+  width: 35%;
   margin-right: 0;
 }
 .card .text {
-  width: 70%;
+  width: 60%;
 }
 h6.main {
   font-family: 'Palanquin', sans-serif;
@@ -174,12 +174,20 @@ button.centrale:hover {
   border: 0.9px solid #7e9ac4;
 }
 /*----------------------------------------------------------------- F O O T E R ---------------------------------------------------------*/
-section.fheadline {
-display: flex;
-}
 div.illu2 {
   width: 500px;
   margin: auto;
+}
+section.fheadline {
+
+  display: flex;
+  justify-content: center;
+  padding: 89px 89px;
+}
+div.fheadline {
+  margin: auto;
+  max-width: 350px;
+  background-color: red;
 }
 .fheadline h3 {
   font-family: 'Roboto Slab', serif;
@@ -247,7 +255,7 @@ hr.solid {
   max-width: 900px;
   margin: auto;
   margin-top: 55px;
-  margin-bottom: 55px;
+  margin-bottom: 89px;
   border: 2px solid black;
 }
 hr.main {
