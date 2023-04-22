@@ -105,31 +105,6 @@ div.illu_tazza {
   animation: 4s anim-saltello ease-out infinite;
   gap: 21px;
 }
-/*------------------------------------------------- HR -----------------------------------------------------*/
-hr {
-  margin-top: 55px;
-  margin-bottom: 55px;
-  max-width: 60%;
-  border: 2px solid #000;
-}
-hr.main:before {
-    content: '';
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: #000000;
-    margin: 0 0.4em;
-  }
-hr.main:after {
-    content: '';
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: #000000;
-    margin: 0 0.4em;
-  }
 /*-------------------------------------------------------------------- M A I N ----------------------------------------------------------*/
 .card {
   width: 55%;
@@ -267,7 +242,14 @@ a.footer {
 a.footer:hover {
   text-decoration: underline;
 }
-/*------------------------------------------------------------ 2  P A L L I N I ---------------------------------------------------------*/
+/*---------------------------------------------------------------- HR -------------------------------------------------------------------*/
+hr.solid {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  border: 2px solid black;
+}
 hr.main {
     text-align: center;
     border: none;
@@ -298,14 +280,6 @@ div.illu_tazza {
   position: relative;
   animation: 4s anim-saltello ease-out infinite;
   gap: 21px;
-}
-/*---------------------------------------------------------------- HR -------------------------------------------------------------------*/
-hr.solid {
-  max-width: 900px;
-  margin: auto;
-  margin-top: 55px;
-  margin-bottom: 55px;
-  border: 2px solid black;
 }
 /*------------------------------------------------------------ C O F F E E --------------------------------------------------------------*/
 .saltello a {
