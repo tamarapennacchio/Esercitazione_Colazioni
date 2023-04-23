@@ -174,25 +174,28 @@ button.centrale:hover {
   border: 0.9px solid #7e9ac4;
 }
 /*----------------------------------------------------------------- F O O T E R ---------------------------------------------------------*/
-.chiusura, .fheadline {
+.footerheadline {
   max-width: 1000px;
+  padding: 89px 89px;
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
-.chiusura {
-width: 80%;
+.footerheadline {
+  width: 80%;
 }
-.fheadline {
+.text {
   width: 36%;
-  background-color: rgb(184, 118, 118);
 }
-.fheadline h3 {
+.sottotitolo {
   font-family: 'Roboto Slab', serif;
   font-size: 24.2515px;
   font-weight: 500;
   line-height: 140%;
+  letter-spacing: -0.029em;
   font-style: normal; 
 }
-.fheadline h1 {
+.titolo {
   font-family: 'Lora', serif;
   font-size: 32px;
   line-height: 120%;
