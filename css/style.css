@@ -98,7 +98,7 @@ a.iscrizione {
 }
 
 /* I L L U    1 */
-div.illu_tazza {
+.illu_tazza {
   margin: 21px;
   max-width: 500px;
   position: relative;
@@ -174,20 +174,16 @@ button.centrale:hover {
   border: 0.9px solid #7e9ac4;
 }
 /*----------------------------------------------------------------- F O O T E R ---------------------------------------------------------*/
-div.illu2 {
-  width: 500px;
+.chiusura, .fheadline {
+  max-width: 1000px;
   margin: auto;
 }
-section.fheadline {
-
-  display: flex;
-  justify-content: center;
-  padding: 89px 89px;
+.chiusura {
+width: 80%;
 }
-div.fheadline {
-  margin: auto;
-  max-width: 350px;
-  background-color: red;
+.fheadline {
+  width: 36%;
+  background-color: rgb(184, 118, 118);
 }
 .fheadline h3 {
   font-family: 'Roboto Slab', serif;
@@ -202,6 +198,9 @@ div.fheadline {
   line-height: 120%;
   letter-spacing: -0.029em;
   font-style: normal;
+}
+.illu2 {
+max-width: 500px;
 }
 /*--------------------------------------------------------------- F O O T E R  BIG ------------------------------------------------------*/
 nav.fbig {
