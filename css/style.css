@@ -12,7 +12,7 @@ div.card, div.pic {
   margin: auto;
 }
 img.marchio {
-  max-width: 10%;
+  max-width: 10rem;
   position: absolute;
   top: 2px;
   left: 5px;
@@ -35,23 +35,21 @@ nav.header {
   justify-content: end;
   align-items: center;
   list-style: none;
-  height: 34px;
+  height: 4em;
 }
 li.header {
-  padding: 0 21px 8px 21px;
+  padding: 1em 2em;
   display: inline-block;
   margin: 0;
 }
 a.header {
+  font-weight: 400;
   cursor: pointer;
   color: #e3d2c3;
   text-decoration: none;
 }
 a.header:hover {
- text-decoration: underline;
-}
-img.pittogramma {
-  max-width: 15px;
+ border-bottom: 0.2em solid #e3d2c3;
 }
 /*------------------------------------------------------------------- T I T O L O -------------------------------------------------------*/
 section.headline {
@@ -70,7 +68,7 @@ h1.headline {
   font-style: normal;
   max-width: 377px;
   margin: 0 0 13px 0;
- }
+}
 h3.headline {
   font-family: 'Roboto Slab', serif;
   font-size: 24.2515px;
@@ -96,7 +94,6 @@ a.iscrizione {
   color: #7e9ac4;
   text-overflow: 500;
 }
-
 /* I L L U    1 */
 .illu_tazza {
   margin: 21px;
@@ -175,17 +172,15 @@ button.centrale:hover {
 }
 /*----------------------------------------------------------------- F O O T E R ---------------------------------------------------------*/
 .footerheadline {
-  max-width: 1000px;
-  padding: 89px 89px;
-  margin: auto;
+  max-width: 100rem;
+  padding: 2em;
+  margin: 0;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
-.footerheadline {
-  width: 80%;
-}
 .text {
-  width: 36%;
+  width: 25em;
 }
 .sottotitolo {
   font-family: 'Roboto Slab', serif;
@@ -203,12 +198,12 @@ button.centrale:hover {
   font-style: normal;
 }
 .illu2 {
-max-width: 500px;
+  max-width: 15rem;
 }
 /*--------------------------------------------------------------- F O O T E R  BIG ------------------------------------------------------*/
 nav.fbig {
   background-color: #7e9ac4;
-  height: 89px;
+  height: 7rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -265,7 +260,7 @@ hr.main {
     border: none;
     margin: 55px 0 55px 0;
   }
-    hr.main:before {
+hr.main:before {
     content: '';
     display: inline-block;
     width: 8px;
@@ -274,7 +269,7 @@ hr.main {
     background: #000000;
     margin: 0 0.4em;
   }
-    hr.main:after {
+hr.main:after {
     content: '';
     display: inline-block;
     width: 8px;
@@ -321,7 +316,7 @@ div.illu_tazza {
     transform: translateY(0%);
   }
 }
-/*------------------------------------------------------------- F R E C C I N A  -  TOP -------------------------------------------------*/
+/*--------------------------------------------------- F R E C C I N A  -  TOP -----------------------------------------------------------*/
 a.freccina {
   color: black;
   background: #c3d0e3;
@@ -338,17 +333,232 @@ a.freccina:hover {
   color: white;
   background-color: #7e9ac4;
  }
-@media (max-width: 800px) { /* se la finestra ha una larghezza minore di 800px la dichiarazione farà lo sfondo giallo */
+/*------------------------------------------------------ M E D I A ----------------------------------------------------------------------*/
+@media (max-width: 35em) {
+.marchio {
+  padding: 0.3em 0 0 0.1em;
 }
-@media (max-width: 800px) { /* se la finestra ha una larghezza minore di 800px la dichiarazione farà lo sfondo giallo */
-  nav.footer {
-  font-size: 12.6992px;
- }
+img.marchio {
+  max-width: 10rem;
+  position: absolute;
 }
-@media (max-width: 300px) {
-  nav.footer {
-    font-size: 9px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  }
+/*_______________________________________________________________________________________________________________________________________*/
+nav.header { 
+  background-color: #7e9ac4;
+  font-family: 'Roboto Slab', serif;
+  font-size: 13.9288px;
+  font-weight: 300;
+  display: fled;
+  align-items: center;
+  justify-content: end;
+  list-style: none;
+  height: 2em;
+  margin: 0;
+  padding: 0.5em;
 }
+li.header {
+  padding: 0 21px 8px 21px;
+  display: inline-block;
+  margin: 0;
+}
+a.header {
+  font-weight: 500;
+  cursor: pointer;
+  color: #e3d2c3;
+  text-decoration: none;
+}
+/*_______________________________________________________________________________________________________________________________________*/
+img.heroimage {
+  max-height: 11rem;
+  max-width: 30rem;
+  object-fit: cover;
+}
+/*_______________________________________________________________________________________________________________________________________*/
+section.headline {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  padding: 3em;
+}
+div.headline {
+  max-width: 20rem;
+}
+h1.headline {
+  font-family: 'Lora', serif;
+  font-size: 32px;
+  line-height: 120%;
+  font-style: normal;
+  max-width: 7.5em;
+  margin: 0 0 13px 0;
+}
+h3.headline {
+  font-family: 'Roboto Slab', serif;
+  font-size: 24.2515px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: -0.029em;
+  font-style: normal;
+  max-width: 15rem;
+  margin: 0 0 8px 0;
+}
+h6.headline {
+  color: #7e9ac4;
+  font-family: 'Palanquin', sans-serif;
+  font-size: 13.9288px;
+  font-weight: 600;
+  line-height: 160%;
+  letter-spacing: -0.029em;
+  font-style: normal;
+  margin: 0;
+}
+a.iscrizione {
+  color: #7e9ac4;
+  text-overflow: 500;
+}
+/*_______________________________________________________________________________________________________________________________________*/
+.card {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.card .pic {
+  width: 100%;
+  margin: 0;
+  padding: 3em 0 0 0;
+}
+.card .text {
+  width: 160%;
+}
+h6.main {
+  font-family: 'Palanquin', sans-serif;
+  font-size: 13.9288px;
+  margin: 0 0 1em 0;
+}
+h4.main {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0 0 0.5em;
+}
+p.main {
+  font-family: 'Roboto Slab', serif;
+  font-size: 12px;
+  max-width: 300px;
+  margin: 0;
+}
+div.buttoncentrale {
+  display: flex;
+  justify-content: center;
+  margin: 5em 2em;
+}
+/*_______________________________________________________________________________________________________________________________________*/
+.footerheadline {
+  max-width: 50rem;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+.text {
+  width: 15em;
+  margin: 0;
+}
+.sottotitolo {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 140%;
+  letter-spacing: -0.029em;
+  font-style: normal; 
+  margin: 0 0 3em 0;
+  max-width: 11rem;
+}
+.titolo {
+  font-family: 'Lora', serif;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: -0.029em;
+  font-style: normal;
+  margin: 0 0 3em 0;
+}
+.illu2 {
+  max-width: 25rem;
+}
+/*_______________________________________________________________________________________________________________________________________*/
+nav.fbig {
+  background-color: #7e9ac4;
+  height: 7rem;
+  display: grid;
+  place-items: center;
+  list-style: none;
+}
+li.fbig {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  text-align: center;
+}
+a.fbig {
+  color: #e3d2c3;
+  text-decoration: none;
+}
+a.fbig:hover {
+  text-decoration: underline;
+}
+/*_______________________________________________________________________________________________________________________________________*/
+nav.footer {
+  font-family: 'Palanquin', sans-serif;
+  font-size: 8px;
+  font-weight: 300;
+  max-height: 66rem;
+  max-width: 50rem;
+  display: grid;
+  place-items: center;
+  list-style: none;
+}
+a.footer {
+  color: #000;
+  text-decoration: none;
+}
+a.footer:hover {
+  text-decoration: underline;
+}
+}
+/*_________________________________________________________________ 2 ___________________________________________________________________*/
+@media (min-width: 35em) {
+.marchio {
+  padding: 0.6em 0 0 0.5em; 
+}
+img.marchio {
+  max-width: 10rem;
+  position: absolute;
+  top: 2px;
+  left: 5px;
+}
+}
+/*_________________________________________________________________ 3 ___________________________________________________________________*/
+@media (min-width: 50em) {
+.marchio {
+  padding: 0.6em 0 0 0.5em;
+}
+img.marchio {
+  max-width: 10rem;
+  position: absolute;
+  top: 2px;
+  left: 5px;
+}
+}
+/*_________________________________________________________________ 4 ___________________________________________________________________*/
+@media (min-width: 70em) {
+.marchio {
+  padding: 0.2em 0 0 0.2em;
+}
+img.marchio {
+  max-width: 10rem;
+  position: absolute;
+  top: 2px;
+  left: 5px;
+}
+}
+
