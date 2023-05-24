@@ -104,15 +104,11 @@ a.iscrizione {
 }
 /*-------------------------------------------------------------------- M A I N ----------------------------------------------------------*/
 .card {
-  width: 55%;
   display: flex;
+  margin: 0;
 }
 .card .pic {
-  width: 35%;
-  margin-right: 0;
-}
-.card .text {
-  width: 60%;
+  max-width: 30rem;
 }
 h6.main {
   font-family: 'Palanquin', sans-serif;
@@ -120,6 +116,7 @@ h6.main {
   margin: 0;
 }
 h4.main {
+  width: 20em;
   font-family: 'Lora', serif;
   font-size: 21.1121px;
   margin: 0;
@@ -198,7 +195,7 @@ button.centrale:hover {
   font-style: normal;
 }
 .illu2 {
-  max-width: 15rem;
+  max-width: 30rem;
 }
 /*--------------------------------------------------------------- F O O T E R  BIG ------------------------------------------------------*/
 nav.fbig {
@@ -218,18 +215,15 @@ li.fbig {
   padding: 0 10px 0 0;
 }
 a.fbig {
-  color: #e3d2c3;
+  color: #fff;
   text-decoration: none;
-}
-a.fbig:hover {
-  text-decoration: underline;
 }
 /*--------------------------------------------------------------- F O O T E R  END ------------------------------------------------------*/
 nav.footer {
-  background-color: #c3d0e3;
+  background-color: #000;
   font-family: 'Palanquin', sans-serif;
   font-size: 13.9288px;
-  font-weight: 300;
+  font-weight: 500;
   height: 55px;
   display: flex;
   justify-content: space-around;
@@ -249,7 +243,7 @@ a.footer:hover {
 }
 /*---------------------------------------------------------------- HR -------------------------------------------------------------------*/
 hr.solid {
-  max-width: 900px;
+  max-width: 20rem;
   margin: auto;
   margin-top: 55px;
   margin-bottom: 89px;
@@ -342,6 +336,13 @@ img.marchio {
   max-width: 10rem;
   position: absolute;
 }
+body {
+  max-width: 100%;
+}
+div.card, div.pic {
+  max-width: 100%;
+  margin: 0;
+}
 /*_______________________________________________________________________________________________________________________________________*/
 nav.header { 
   background-color: #7e9ac4;
@@ -415,21 +416,36 @@ a.iscrizione {
   color: #7e9ac4;
   text-overflow: 500;
 }
+.illu_tazza {
+  width: 300px;
+  position: relative;
+  animation: 4s anim-saltello ease-out infinite;
+}
+/*_______________________________________________________________________________________________________________________________________*/
+hr.solid {
+  max-width: 10rem;
+  margin: auto;
+  margin-top: 55px;
+  margin-bottom: 89px;
+  border: 1,5px solid black;
+}
+hr.main {
+  text-align: center;
+  border: none;
+  margin: 3em 0 0 0;
+}
 /*_______________________________________________________________________________________________________________________________________*/
 .card {
-  width: 80%;
+  padding: 3em 3em 0 3em;
   display: flex;
   flex-direction: column;
-  align-items: start;
-  justify-content: start;
 }
 .card .pic {
-  width: 100%;
-  margin: 0;
-  padding: 3em 0 0 0;
+  max-width: 25rem;
+  margin: 3em 0 0 0;
 }
 .card .text {
-  width: 160%;
+  max-width: 15rem;
 }
 h6.main {
   font-family: 'Palanquin', sans-serif;
@@ -454,7 +470,7 @@ div.buttoncentrale {
 }
 /*_______________________________________________________________________________________________________________________________________*/
 .footerheadline {
-  max-width: 50rem;
+  max-width: 30rem;
   margin: 0;
   display: grid;
   place-items: center;
@@ -509,17 +525,19 @@ a.fbig:hover {
 /*_______________________________________________________________________________________________________________________________________*/
 nav.footer {
   font-family: 'Palanquin', sans-serif;
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 300;
-  max-height: 66rem;
-  max-width: 50rem;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
   list-style: none;
 }
 a.footer {
-  color: #000;
+  color: #7e9ac4;
   text-decoration: none;
+  font-weight: 800;
 }
 a.footer:hover {
   text-decoration: underline;
@@ -561,4 +579,3 @@ img.marchio {
   left: 5px;
 }
 }
-
