@@ -379,7 +379,7 @@ section.headline {
   margin: 0;
   display: grid;
   place-items: center;
-  padding: 3em;
+  padding: 1em;
 }
 div.headline {
   max-width: 20rem;
@@ -439,13 +439,15 @@ hr.main {
   padding: 3em 3em 0 3em;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .card .pic {
   max-width: 25rem;
   margin: 3em 0 0 0;
 }
 .card .text {
-  max-width: 15rem;
+  border: 1px solid red;
+  width: 25em;
 }
 h6.main {
   font-family: 'Palanquin', sans-serif;
